@@ -28,6 +28,8 @@ const handleScroll = () => {
         <div className='hero__image'>
           <Image
           src='/hero-bg.png'
+          width={20}
+          height={20}
           />
         </div>
       </div>
