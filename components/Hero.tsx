@@ -9,7 +9,7 @@ const handleScroll = () => {
 }
 
   return (
-    <header className='hero'>
+    <div className='hero'>
       <div className='flex-1 pt-36 padding-x'>
         <h1 className='hero__title'>
           Find, book, or rent a car &mdash; quickly and easily!
@@ -35,7 +35,7 @@ const handleScroll = () => {
             <div className='hero__image-overlay'></div>
         </div>
       </div>
-    </header>
+    </div>
   )
 }
 
